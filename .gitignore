@@ -1,0 +1,25 @@
+# Python
+backend/__pycache__/
+backend/*.pyc
+
+# Python Virtual Environment
+.venv/
+
+# Trained Models (optional)
+backend/spam_model.pkl
+backend/vectorizer.pkl
+
+# Node
+frontend/node_modules/
+
+# Vite
+frontend/dist/
+
+# VS Code
+.vscode/
+
+# Environment files
+.env
+
+# macOS
+.DS_Store
