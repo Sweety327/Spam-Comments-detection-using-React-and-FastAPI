@@ -1,5 +1,7 @@
+from pathlib import Path
 import joblib
 
-model = joblib.load("spam_model.pkl")
+BASE_DIR = Path(__file__).resolve().parent
 
-vectorizer = joblib.load("vectorizer.pkl")
+model = joblib.load(BASE_DIR / "spam_model.pkl")
+vectorizer = joblib.load(BASE_DIR / "vectorizer.pkl")
