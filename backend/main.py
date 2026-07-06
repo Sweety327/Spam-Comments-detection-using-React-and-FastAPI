@@ -8,7 +8,7 @@ app = FastAPI(title="YouTube Spam Detection API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173", "https://spam-comments-detection-using-react.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
