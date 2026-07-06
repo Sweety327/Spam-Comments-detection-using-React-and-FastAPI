@@ -6,8 +6,8 @@ backend/*.pyc
 .venv/
 
 # Trained Models (optional)
-backend/spam_model.pkl
-backend/vectorizer.pkl
+#backend/spam_model.pkl
+#backend/vectorizer.pkl
 
 # Node
 frontend/node_modules/
